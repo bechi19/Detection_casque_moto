@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['With Helmet', 'Without Helmet']
+
+roboflow:
+  workspace: guedaims-workspace
+  project: bike-helmet-detection-2vdjo-agpe6-1ijvt
+  version: 1
+  license: Public Domain
+  url: https://app.roboflow.com/guedaims-workspace/bike-helmet-detection-2vdjo-agpe6-1ijvt/1
